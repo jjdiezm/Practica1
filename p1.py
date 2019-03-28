@@ -18,7 +18,7 @@ events = soup.find_all("h3")
 i=0
 for e in events:
     if i>=0: 
-        #print("Tot el link: ",e)
+        print("Tot el link: ",e)
         print("Només text del link: ", e.find("a").contents,"\n")
         i+=1
 
