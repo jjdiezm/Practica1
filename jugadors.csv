@@ -1,0 +1,596 @@
+,Nom,Equip,Funcio,Dorsal
+0,Abelardo Fernández,Alavés,Entrenador,0
+1,Fernando Pacheco,Alavés,Portero,1
+2,Antonio Sivera,Alavés,Portero,13
+3,Álex Domínguez,Alavés,Portero,31
+4,Carlos Vigaray,Alavés,Defensa,2
+5,Rubén Duarte,Alavés,Defensa,3
+6,Rodrigo Ely,Alavés,Defensa,4
+7,Víctor Laguardia,Alavés,Defensa,5
+8,Guillermo Maripán,Alavés,Defensa,6
+9,Ximo Navarro,Alavés,Defensa,15
+10,Adrián Marín,Alavés,Defensa,17
+11,Martín Aguirregabiria,Alavés,Defensa,21
+12,Tomás Pina,Alavés,Centrocampista,8
+13,Takashi Inui,Alavés,Centrocampista,11
+14,Burgui,Alavés,Centrocampista,14
+15,Manu García,Alavés,Centrocampista,19
+16,Darko Brasanac,Alavés,Centrocampista,20
+17,Mubarak Wakaso,Alavés,Centrocampista,22
+18,Jony,Alavés,Centrocampista,23
+19,Antonio Perera,Alavés,Centrocampista,27
+20,Álex Blanco,Alavés,Delantero,7
+21,Diego Rolan,Alavés,Delantero,9
+22,John Guidetti,Alavés,Delantero,10
+23,Jonathan Calleri,Alavés,Delantero,12
+24,Borja Bastón,Alavés,Delantero,18
+25,Patrick Twumasi,Alavés,Delantero,24
+26,Andrei Lupu,Alavés,Delantero,34
+27,Gaizka Garitano,Athletic,Entrenador,0
+28,Álex Remiro,Athletic,Portero,1
+29,Iago Herrerín,Athletic,Portero,13
+30,Unai Simón,Athletic,Portero,25
+31,Hodei Oleaga,Athletic,Portero,26
+32,Unai Núñez,Athletic,Defensa,3
+33,Íñigo Martínez,Athletic,Defensa,4
+34,Yeray Álvarez,Athletic,Defensa,5
+35,Yuri,Athletic,Defensa,12
+36,Íñigo Lekue,Athletic,Defensa,15
+37,Óscar De Marcos,Athletic,Defensa,18
+38,Ander Capa,Athletic,Defensa,21
+39,Mikel Balenziaga,Athletic,Defensa,24
+40,Mikel San José,Athletic,Centrocampista,6
+41,Beñat Etxebarria,Athletic,Centrocampista,7
+42,Ander Iturraspe,Athletic,Centrocampista,8
+43,Iñigo Córdoba,Athletic,Centrocampista,11
+44,Markel Susaeta,Athletic,Centrocampista,14
+45,Dani García,Athletic,Centrocampista,16
+46,Mikel Rico,Athletic,Centrocampista,17
+47,Ibai Gómez,Athletic,Centrocampista,19
+48,Raúl García,Athletic,Centrocampista,22
+49,Unai López,Athletic,Centrocampista,23
+50,Peru Nolaskoain,Athletic,Centrocampista,31
+51,Kenan Kodro,Athletic,Delantero,2
+52,Iñaki Williams,Athletic,Delantero,9
+53,Iker Muniain,Athletic,Delantero,10
+54,Aritz Aduriz,Athletic,Delantero,20
+55,Gorka Guruzeta,Athletic,Delantero,30
+56,Iñigo Vicente,Athletic,Delantero,32
+57,Diego Simeone,Atlético,Entrenador,0
+58,Antonio Adán,Atlético,Portero,1
+59,Jan Oblak,Atlético,Portero,13
+60,Alex Dos Santos,Atlético,Portero,25
+61,Diego Godín,Atlético,Defensa,2
+62,Filipe Luís,Atlético,Defensa,3
+63,Santiago Arias,Atlético,Defensa,4
+64,Stefan Savic,Atlético,Defensa,15
+65,Nehuén Pérez,Atlético,Defensa,18
+66,Juanfran,Atlético,Defensa,20
+67,Lucas Hernández,Atlético,Defensa,21
+68,José Giménez,Atlético,Defensa,24
+69,Andrés Solano,Atlético,Defensa,33
+70,Francisco Montero,Atlético,Defensa,35
+71,Tachi,Atlético,Defensa,36
+72,Carlos Isaac Muñoz,Atlético,Defensa,38
+73,Thomas Partey,Atlético,Centrocampista,5
+74,Koke,Atlético,Centrocampista,6
+75,Saúl Ñíguez,Atlético,Centrocampista,8
+76,Thomas Lemar,Atlético,Centrocampista,11
+77,Rodrigo,Atlético,Centrocampista,14
+78,Vitolo,Atlético,Centrocampista,23
+79,Cristian Rodríguez,Atlético,Centrocampista,28
+80,Mikel Carro,Atlético,Centrocampista,30
+81,Toni Moya,Atlético,Centrocampista,43
+82,Antoine Griezmann,Atlético,Delantero,7
+83,Nikola Kalinic,Atlético,Delantero,9
+84,Ángel Correa,Atlético,Delantero,10
+85,Diego Costa,Atlético,Delantero,19
+86,Álvaro Morata,Atlético,Delantero,22
+87,Borja Garcés,Atlético,Delantero,32
+88,Victor Mollejo,Atlético,Delantero,40
+89,Joaquín Muñoz,Atlético,Delantero,47
+90,Ernesto Valverde,Barça,Entrenador,0
+91,Marc-André ter Stegen,Barça,Portero,1
+92,Jasper Cillessen,Barça,Portero,13
+93,Iñaki Peña,Barça,Portero,30
+94,Jokin Ezkieta,Barça,Portero,31
+95,Nélson Semedo,Barça,Defensa,2
+96,Gerard Piqué,Barça,Defensa,3
+97,Jean-Clair Todibo,Barça,Defensa,6
+98,Clément Lenglet,Barça,Defensa,15
+99,Jeison Murillo,Barça,Defensa,17
+100,Jordi Alba,Barça,Defensa,18
+101,Sergi Roberto,Barça,Defensa,20
+102,Samuel Umtiti,Barça,Defensa,23
+103,Thomas Vermaelen,Barça,Defensa,24
+104,Juan Miranda,Barça,Defensa,27
+105,Jorge Cuenca,Barça,Defensa,33
+106,Chumi,Barça,Defensa,36
+107,Guillem Jaime,Barça,Defensa,38
+108,Moussa Wagué,Barça,Defensa,40
+109,Ivan Rakitic,Barça,Centrocampista,4
+110,Sergio Busquets,Barça,Centrocampista,5
+111,Coutinho,Barça,Centrocampista,7
+112,Arthur,Barça,Centrocampista,8
+113,Rafinha,Barça,Centrocampista,12
+114,Carles Aleñá,Barça,Centrocampista,21
+115,Arturo Vidal,Barça,Centrocampista,22
+116,Riqui Puig,Barça,Centrocampista,28
+117,Álex Collado,Barça,Centrocampista,34
+118,Oriol Busquets,Barça,Centrocampista,35
+119,Luis Suárez,Barça,Delantero,9
+120,Lionel Messi,Barça,Delantero,10
+121,Ousmane Dembélé,Barça,Delantero,11
+122,Malcom,Barça,Delantero,14
+123,Kevin-Prince Boateng,Barça,Delantero,19
+124,Quique Setién,Betis,Entrenador,0
+125,Joel Robles,Betis,Portero,1
+126,Pau López,Betis,Portero,13
+127,Zouhair Feddal,Betis,Defensa,4
+128,Marc Bartra,Betis,Defensa,5
+129,Sidnei,Betis,Defensa,12
+130,Antonio Barragán,Betis,Defensa,19
+131,Júnior Firpo,Betis,Defensa,20
+132,Aissa Mandi,Betis,Defensa,23
+133,Emerson,Betis,Defensa,24
+134,Julio Alonso,Betis,Defensa,30
+135,Edgar González,Betis,Defensa,32
+136,Jaime Garijo,Betis,Centrocampista,-
+137,Francis,Betis,Centrocampista,2
+138,Javi García,Betis,Centrocampista,3
+139,Sergio Canales,Betis,Centrocampista,6
+140,William Carvalho,Betis,Centrocampista,14
+141,Joaquín,Betis,Centrocampista,17
+142,Andrés Guardado,Betis,Centrocampista,18
+143,Giovani Lo Celso,Betis,Centrocampista,21
+144,Diego Lainez,Betis,Centrocampista,22
+145,Adrián Tellado,Betis,Centrocampista,27
+146,José Manuel Irizo,Betis,Centrocampista,28
+147,Wilfrid Kaptoum,Betis,Centrocampista,34
+148,Diego Altamirano,Betis,Centrocampista,37
+149,Paul Akouokou,Betis,Centrocampista,38
+150,Sergio León,Betis,Delantero,7
+151,Jesé,Betis,Delantero,10
+152,Cristian Tello,Betis,Delantero,11
+153,Loren Morón,Betis,Delantero,16
+154,Robert,Betis,Delantero,33
+155,Fran Escribá,Celta,Entrenador,0
+156,Sergio Álvarez,Celta,Portero,1
+157,Rubén Blanco,Celta,Portero,13
+158,Iván Villar,Celta,Portero,26
+159,Hugo Mallo,Celta,Defensa,2
+160,David Costas,Celta,Defensa,3
+161,Néstor Araújo,Celta,Defensa,4
+162,Wesley Hoedt,Celta,Defensa,12
+163,Lucas Olaza,Celta,Defensa,15
+164,David Juncà,Celta,Defensa,17
+165,Kevin Vázquez,Celta,Defensa,20
+166,Gustavo Cabral,Celta,Defensa,22
+167,Okay Yokuslu,Celta,Centrocampista,5
+168,Nemanja Radoja,Celta,Centrocampista,6
+169,Fran Beltrán,Celta,Centrocampista,8
+170,Stanislav Lobotka,Celta,Centrocampista,14
+171,Andrew Hjulsager,Celta,Centrocampista,16
+172,Mathias Jensen,Celta,Centrocampista,18
+173,Sofiane Boufal,Celta,Centrocampista,19
+174,Jozabed Sánchez,Celta,Centrocampista,21
+175,Brais Méndez,Celta,Centrocampista,23
+176,Ryad Boudebouz,Celta,Centrocampista,24
+177,Emre Mor,Celta,Delantero,7
+178,Maxi Gómez,Celta,Delantero,9
+179,Iago Aspas,Celta,Delantero,10
+180,Pione Sisto,Celta,Delantero,11
+181,Emmanuel Apeh,Celta,Delantero,29
+182,José Luis Mendilibar,Eibar,Entrenador,0
+183,Marko Dmitrovic,Eibar,Portero,1
+184,Asier Riesgo,Eibar,Portero,13
+185,Markel Areitio,Eibar,Portero,35
+186,Jordi Calavera,Eibar,Defensa,2
+187,Pedro Bigas,Eibar,Defensa,3
+188,Iván Ramis,Eibar,Defensa,4
+189,Paulo Oliveira,Eibar,Defensa,12
+190,Cote,Eibar,Defensa,15
+191,Marc Cucurella,Eibar,Defensa,20
+192,Anaitz Arbilla,Eibar,Defensa,23
+193,Gonzalo Escalante,Eibar,Centrocampista,5
+194,Sergio Álvarez,Eibar,Centrocampista,6
+195,Pape Diop,Eibar,Centrocampista,8
+196,Rubén Peña,Eibar,Centrocampista,11
+197,Fabián Orellana,Eibar,Centrocampista,14
+198,Pablo De Blasis,Eibar,Centrocampista,16
+199,Pedro León,Eibar,Centrocampista,21
+200,Joan Jordán,Eibar,Centrocampista,24
+201,Marc Cardona,Eibar,Delantero,7
+202,Sergi Enrich,Eibar,Delantero,9
+203,Kike García,Eibar,Delantero,17
+204,Charles,Eibar,Delantero,19
+205,Pere Milla,Eibar,Delantero,22
+206,Joan Francesc Ferrer,Espanyol,Entrenador,0
+207,Roberto Jiménez,Espanyol,Portero,1
+208,Diego López,Espanyol,Portero,13
+209,Naldo,Espanyol,Defensa,5
+210,Óscar Duarte,Espanyol,Defensa,6
+211,Roberto Rosales,Espanyol,Defensa,8
+212,Dídac Vilá,Espanyol,Defensa,12
+213,David López,Espanyol,Defensa,15
+214,Javi López,Espanyol,Defensa,16
+215,Mario Hermoso,Espanyol,Defensa,22
+216,Lluís López,Espanyol,Defensa,27
+217,Adrià Pedrosa,Espanyol,Defensa,28
+218,Iago Indias,Espanyol,Defensa,32
+219,Alfa Semedo,Espanyol,Centrocampista,2
+220,Víctor Sánchez,Espanyol,Centrocampista,4
+221,Sergi Darder,Espanyol,Centrocampista,10
+222,Óscar Melendo,Espanyol,Centrocampista,14
+223,Álex López,Espanyol,Centrocampista,18
+224,Pablo Piatti,Espanyol,Centrocampista,19
+225,Marc Roca,Espanyol,Centrocampista,21
+226,Esteban Granero,Espanyol,Centrocampista,23
+227,Borja Iglesias,Espanyol,Delantero,7
+228,Sergio García,Espanyol,Delantero,9
+229,Facundo Ferreyra,Espanyol,Delantero,11
+230,Hernán Pérez,Espanyol,Delantero,17
+231,Javi Puado,Espanyol,Delantero,20
+232,Wu Lei,Espanyol,Delantero,24
+233,Carlos Doncel,Espanyol,Delantero,29
+234,Víctor Campuzano,Espanyol,Delantero,31
+235,José Bordalás,Getafe,Entrenador,0
+236,Leandro Chichizola,Getafe,Portero,1
+237,David Soria,Getafe,Portero,13
+238,Rubén Yáñez,Getafe,Portero,25
+239,Djené Dakonam,Getafe,Defensa,2
+240,Vitorino Antunes,Getafe,Defensa,3
+241,Bruno González,Getafe,Defensa,4
+242,Leandro Cabrera,Getafe,Defensa,6
+243,Mathías Olivera,Getafe,Defensa,17
+244,Ignasi Miquel,Getafe,Defensa,21
+245,Damián Suárez,Getafe,Defensa,22
+246,Dimitri Foulquier,Getafe,Defensa,24
+247,Miguel Ángel Rubio,Getafe,Defensa,29
+248,Markel Bergara,Getafe,Centrocampista,5
+249,Francisco Portillo,Getafe,Centrocampista,8
+250,Gaku Shibasaki,Getafe,Centrocampista,10
+251,Samu Sáiz,Getafe,Centrocampista,11
+252,Sebastián Cristóforo,Getafe,Centrocampista,15
+253,Mathieu Flamini,Getafe,Centrocampista,16
+254,Mauro Arambarri,Getafe,Centrocampista,18
+255,Nemanja Maksimovic,Getafe,Centrocampista,20
+256,Amath Ndiaye,Getafe,Delantero,-
+257,Jaime Mata,Getafe,Delantero,7
+258,Ángel Rodríguez,Getafe,Delantero,9
+259,Jorge Molina,Getafe,Delantero,19
+260,Hugo Duro,Getafe,Delantero,27
+261,Eusebio Sacristán,Girona,Entrenador,0
+262,Gorka Iraizoz,Girona,Portero,1
+263,Yassine Bounou,Girona,Portero,13
+264,José Aurelio Suárez,Girona,Portero,30
+265,Marc Vito,Girona,Portero,36
+266,Bernardo Espinosa,Girona,Defensa,2
+267,Johan Mojica,Girona,Defensa,3
+268,Jonás Ramalho,Girona,Defensa,4
+269,Pedro Alcalá,Girona,Defensa,5
+270,Raúl García,Girona,Defensa,14
+271,Juanpe,Girona,Defensa,15
+272,Marc Muniesa,Girona,Defensa,20
+273,Carles Planas,Girona,Defensa,21
+274,Èric Montes,Girona,Defensa,28
+275,Álex Granell,Girona,Centrocampista,6
+276,Pere Pons,Girona,Centrocampista,8
+277,Portu,Girona,Centrocampista,9
+278,Borja García,Girona,Centrocampista,10
+279,Aday Benítez,Girona,Centrocampista,11
+280,Douglas Luiz,Girona,Centrocampista,12
+281,Patrick Roberts,Girona,Centrocampista,17
+282,Aleix García,Girona,Centrocampista,23
+283,Pedro Porro,Girona,Centrocampista,24
+284,Yhoan Andzouana,Girona,Centrocampista,26
+285,Kevin Soni,Girona,Centrocampista,27
+286,Valery Fernández,Girona,Centrocampista,34
+287,Paik Seung-Ho,Girona,Centrocampista,35
+288,Cristhian Stuani,Girona,Delantero,7
+289,Anthony Lozano,Girona,Delantero,19
+290,Seydou Doumbia,Girona,Delantero,22
+291,Álex Pachón,Girona,Delantero,37
+292,Francisco Rodríguez,Huesca,Entrenador,0
+293,Javi Varas,Huesca,Portero,1
+294,Roberto Santamaría,Huesca,Portero,13
+295,Aleksandar Jovanovic,Huesca,Portero,25
+296,Martín Mantovani,Huesca,Defensa,2
+297,Xabier Etxeita,Huesca,Defensa,3
+298,Adrián Diéguez,Huesca,Defensa,4
+299,Javi Galán,Huesca,Defensa,12
+300,Jorge Pulido,Huesca,Defensa,14
+301,Carlos Akapo,Huesca,Defensa,15
+302,Luisinho,Huesca,Defensa,16
+303,Pablo Ínsua,Huesca,Defensa,18
+304,Jorge Miramón,Huesca,Defensa,24
+305,José Ignacio Uche,Huesca,Defensa,26
+306,Javier Almerge,Huesca,Defensa,27
+307,Juan Aguilera,Huesca,Centrocampista,5
+308,Moi Gómez,Huesca,Centrocampista,6
+309,David Ferreiro,Huesca,Centrocampista,7
+310,Gonzalo Melero,Huesca,Centrocampista,8
+311,Camacho,Huesca,Centrocampista,10
+312,Christian Rivera,Huesca,Centrocampista,17
+313,Juanpi,Huesca,Centrocampista,20
+314,Yangel Herrera,Huesca,Centrocampista,21
+315,Damián Musto,Huesca,Centrocampista,23
+316,Javito,Huesca,Centrocampista,28
+317,Juan Camilo Hernández,Huesca,Delantero,9
+318,Álex Gallar,Huesca,Delantero,11
+319,Ezequiel Ávila,Huesca,Delantero,19
+320,Enric Gallego,Huesca,Delantero,22
+321,Mauricio Pellegrino,Leganés,Entrenador,0
+322,Iván Cuéllar,Leganés,Portero,1
+323,Andrés Prieto,Leganés,Portero,13
+324,Andriy Lunin,Leganés,Portero,29
+325,David Tejero,Leganés,Portero,31
+326,Juanfran,Leganés,Defensa,2
+327,Unai Bustinza,Leganés,Defensa,3
+328,Diego Reyes,Leganés,Defensa,4
+329,Jonathan Silva,Leganés,Defensa,5
+330,Allan Nyom,Leganés,Defensa,12
+331,Vasyl Kravets,Leganés,Defensa,14
+332,Rodrigo Tarín,Leganés,Defensa,15
+333,Ezequiel Muñoz,Leganés,Defensa,19
+334,Dimitrios Siovas,Leganés,Defensa,22
+335,Kenneth Omeruo,Leganés,Defensa,24
+336,Gerard Gumbau,Leganés,Centrocampista,6
+337,Recio,Leganés,Centrocampista,8
+338,Nabil El Zhar,Leganés,Centrocampista,10
+339,Alexander Szymanowski,Leganés,Centrocampista,11
+340,Javier Eraso,Leganés,Centrocampista,17
+341,Rubén Pérez,Leganés,Centrocampista,21
+342,Mikel Vesga,Leganés,Centrocampista,23
+343,Óscar Rodríguez,Leganés,Centrocampista,27
+344,Guido Carrillo,Leganés,Delantero,9
+345,José Arnáiz,Leganés,Delantero,16
+346,Sabin Merino,Leganés,Delantero,18
+347,Michael Santos,Leganés,Delantero,20
+348,Martin Braithwaite,Leganés,Delantero,25
+349,Youssef En-Nesyri,Leganés,Delantero,26
+350,Javier Avilés,Leganés,Delantero,33
+351,Paco López,Levante,Entrenador,0
+352,Koke,Levante,Portero,1
+353,Oier Olazábal,Levante,Portero,13
+354,Aitor Fernández,Levante,Portero,25
+355,Toño,Levante,Defensa,3
+356,Rober Pier,Levante,Defensa,4
+357,Chema Rodríguez,Levante,Defensa,6
+358,Coke,Levante,Defensa,12
+359,Rúben Vezo,Levante,Defensa,14
+360,Sergio Postigo,Levante,Defensa,15
+361,Erick Cabaco,Levante,Defensa,18
+362,Pedro López,Levante,Defensa,19
+363,Antonio Luna,Levante,Defensa,22
+364,Genís Montolio,Levante,Defensa,26
+365,Cheick Doukouré,Levante,Centrocampista,5
+366,Enis Bardhi,Levante,Centrocampista,10
+367,José Luis Morales,Levante,Centrocampista,11
+368,Rubén Rochina,Levante,Centrocampista,16
+369,Nikola Vukcevic,Levante,Centrocampista,17
+370,José Campaña,Levante,Centrocampista,24
+371,Fran Manzanara,Levante,Centrocampista,27
+372,Arturo Molina,Levante,Centrocampista,31
+373,Borja Mayoral,Levante,Delantero,2
+374,Moses Simon,Levante,Delantero,7
+375,Roger Martí,Levante,Delantero,9
+376,Raphael Dwamena,Levante,Delantero,20
+377,Jason,Levante,Delantero,23
+378,Paco Jémez,Rayo,Entrenador,0
+379,Alberto García,Rayo,Portero,1
+380,Stole Dimitrievski,Rayo,Portero,13
+381,Miguel Ángel Morro,Rayo,Portero,30
+382,Tito,Rayo,Defensa,2
+383,Alejandro Catena,Rayo,Defensa,5
+384,Jordi Amat,Rayo,Defensa,16
+385,Luis Advíncula,Rayo,Defensa,17
+386,Emiliano Velázquez,Rayo,Defensa,20
+387,Abdoulaye Ba,Rayo,Defensa,21
+388,Alejandro Gálvez,Rayo,Defensa,23
+389,Sergio Akieme,Rayo,Defensa,28
+390,Martín Pascual,Rayo,Defensa,31
+391,Luis Meseguer,Rayo,Defensa,33
+392,Uche Agbo,Rayo,Centrocampista,3
+393,Álvaro Medrán,Rayo,Centrocampista,4
+394,Gorka Elustondo,Rayo,Centrocampista,6
+395,Álex Moreno,Rayo,Centrocampista,7
+396,Gaël Kakuta,Rayo,Centrocampista,10
+397,Giannelli Imbula,Rayo,Centrocampista,12
+398,Mario Suárez,Rayo,Centrocampista,15
+399,Álvaro García,Rayo,Centrocampista,18
+400,José Pozo,Rayo,Centrocampista,22
+401,Santiago Comesaña,Rayo,Centrocampista,27
+402,Manuel Navarro,Rayo,Centrocampista,34
+403,Ángel Algobia,Rayo,Centrocampista,35
+404,Óscar Trejo,Rayo,Delantero,8
+405,Raúl de Tomás,Rayo,Delantero,9
+406,Adrián Embarba,Rayo,Delantero,11
+407,Bebé,Rayo,Delantero,14
+408,Javi Guerra,Rayo,Delantero,24
+409,Franco Di Santo,Rayo,Delantero,25
+410,Sergio Moreno,Rayo,Delantero,29
+411,Zinedine Zidane,Real Madrid,Entrenador,0
+412,Keylor Navas,Real Madrid,Portero,1
+413,Thibaut Courtois,Real Madrid,Portero,25
+414,Luca Zidane,Real Madrid,Portero,30
+415,Daniel Carvajal,Real Madrid,Defensa,2
+416,Jesús Vallejo,Real Madrid,Defensa,3
+417,Sergio Ramos,Real Madrid,Defensa,4
+418,Raphael Varane,Real Madrid,Defensa,5
+419,Nacho,Real Madrid,Defensa,6
+420,Marcelo,Real Madrid,Defensa,12
+421,Álvaro Odriozola,Real Madrid,Defensa,19
+422,Sergio Reguilón,Real Madrid,Defensa,23
+423,Adrian De la Fuente,Real Madrid,Defensa,26
+424,Javi Sánchez,Real Madrid,Defensa,31
+425,Francisco Garcia,Real Madrid,Defensa,37
+426,Toni Kroos,Real Madrid,Centrocampista,8
+427,Luka Modric,Real Madrid,Centrocampista,10
+428,Casemiro,Real Madrid,Centrocampista,14
+429,Federico Valverde,Real Madrid,Centrocampista,15
+430,Lucas Vázquez,Real Madrid,Centrocampista,17
+431,Marcos Llorente,Real Madrid,Centrocampista,18
+432,Marco Asensio,Real Madrid,Centrocampista,20
+433,Brahim Díaz,Real Madrid,Centrocampista,21
+434,Isco,Real Madrid,Centrocampista,22
+435,Dani Ceballos,Real Madrid,Centrocampista,24
+436,Jaime Seoane,Real Madrid,Centrocampista,33
+437,Franchu,Real Madrid,Centrocampista,34
+438,Álvaro Fidalgo,Real Madrid,Centrocampista,36
+439,Jaume Grau,Real Madrid,Centrocampista,39
+440,Mariano,Real Madrid,Delantero,7
+441,Karim Benzema,Real Madrid,Delantero,9
+442,Gareth Bale,Real Madrid,Delantero,11
+443,Cristo González,Real Madrid,Delantero,27
+444,Vinícius Júnior,Real Madrid,Delantero,28
+445,Imanol Alguacil,Real Sociedad,Entrenador,0
+446,Gerónimo Rulli,Real Sociedad,Portero,1
+447,Miguel Ángel Moyá,Real Sociedad,Portero,13
+448,Andoni Zubiaurre,Real Sociedad,Portero,30
+449,Joseba Zaldua,Real Sociedad,Defensa,2
+450,Diego Llorente,Real Sociedad,Defensa,3
+451,Héctor Moreno,Real Sociedad,Defensa,6
+452,Aritz Elustondo,Real Sociedad,Defensa,15
+453,Andoni Gorosabel,Real Sociedad,Defensa,18
+454,Theo Hernández,Real Sociedad,Defensa,19
+455,Kévin Rodrigues,Real Sociedad,Defensa,20
+456,Raúl Navas,Real Sociedad,Defensa,22
+457,Robin Le Normand,Real Sociedad,Defensa,27
+458,Aihen Muñoz,Real Sociedad,Defensa,29
+459,Alex Sola,Real Sociedad,Defensa,35
+460,Asier Illarramendi,Real Sociedad,Centrocampista,4
+461,Igor Zubeldia,Real Sociedad,Centrocampista,5
+462,Mikel Merino,Real Sociedad,Centrocampista,8
+463,Adnan Januzaj,Real Sociedad,Centrocampista,11
+464,Rubén Pardo,Real Sociedad,Centrocampista,14
+465,David Zurutuza,Real Sociedad,Centrocampista,17
+466,Luca Sangalli,Real Sociedad,Centrocampista,23
+467,Ander Guevara,Real Sociedad,Centrocampista,26
+468,Näis Djouahra,Real Sociedad,Centrocampista,31
+469,Juanmi,Real Sociedad,Delantero,7
+470,Mikel Oyarzabal,Real Sociedad,Delantero,10
+471,Willian José,Real Sociedad,Delantero,12
+472,Martín Merquelanz,Real Sociedad,Delantero,16
+473,Jon Bautista,Real Sociedad,Delantero,21
+474,Sandro Ramírez,Real Sociedad,Delantero,24
+475,Roberto López,Real Sociedad,Delantero,28
+476,Ander Barrenetxea,Real Sociedad,Delantero,34
+477,Joaquín Caparrós,Sevilla FC,Entrenador,0
+478,Tomás Vaclik,Sevilla FC,Portero,1
+479,Juan Soriano,Sevilla FC,Portero,13
+480,Lucho,Sevilla FC,Portero,38
+481,Sergi Gómez,Sevilla FC,Defensa,3
+482,Simon Kjaer,Sevilla FC,Defensa,4
+483,Daniel Carriço,Sevilla FC,Defensa,6
+484,Aleix Vidal,Sevilla FC,Defensa,11
+485,Maximilian Wöber,Sevilla FC,Defensa,14
+486,Sergio Escudero,Sevilla FC,Defensa,18
+487,Guilherme Arana,Sevilla FC,Defensa,23
+488,Joris Gnagnon,Sevilla FC,Defensa,24
+489,Gabriel Mercado,Sevilla FC,Defensa,25
+490,Juan Berrocal,Sevilla FC,Defensa,37
+491,Javier Vázquez,Sevilla FC,Defensa,40
+492,Ibrahim Amadou,Sevilla FC,Centrocampista,5
+493,Roque Mesa,Sevilla FC,Centrocampista,7
+494,Éver Banega,Sevilla FC,Centrocampista,10
+495,Maxime Gonalons,Sevilla FC,Centrocampista,15
+496,Jesús Navas,Sevilla FC,Centrocampista,16
+497,Pablo Sarabia,Sevilla FC,Centrocampista,17
+498,Marko Rog,Sevilla FC,Centrocampista,20
+499,Franco Vázquez,Sevilla FC,Centrocampista,22
+500,José Mena,Sevilla FC,Centrocampista,29
+501,Nolito,Sevilla FC,Delantero,8
+502,Wissam Ben Yedder,Sevilla FC,Delantero,9
+503,André Silva,Sevilla FC,Delantero,12
+504,Munir El Haddadi,Sevilla FC,Delantero,19
+505,Quincy Promes,Sevilla FC,Delantero,21
+506,Bryan Gil,Sevilla FC,Delantero,41
+507,Marcelino García Toral,Valencia,Entrenador,0
+508,Jaume Doménech,Valencia,Portero,1
+509,Neto,Valencia,Portero,13
+510,Cristian Rivero,Valencia,Portero,28
+511,Facundo Roncaglia,Valencia,Defensa,4
+512,Gabriel,Valencia,Defensa,5
+513,Mouctar Diakhaby,Valencia,Defensa,12
+514,José Gayá,Valencia,Defensa,14
+515,Toni Lato,Valencia,Defensa,15
+516,Cristiano Piccini,Valencia,Defensa,21
+517,Ezequiel Garay,Valencia,Defensa,24
+518,Álex Centelles,Valencia,Defensa,32
+519,Hugo Guillamón,Valencia,Defensa,36
+520,Geoffrey Kondogbia,Valencia,Centrocampista,6
+521,Gonçalo Guedes,Valencia,Centrocampista,7
+522,Carlos Soler,Valencia,Centrocampista,8
+523,Daniel Parejo,Valencia,Centrocampista,10
+524,Denis Cheryshev,Valencia,Centrocampista,11
+525,Lee Kang-In,Valencia,Centrocampista,16
+526,Francis Coquelin,Valencia,Centrocampista,17
+527,Daniel Wass,Valencia,Centrocampista,18
+528,Ferrán Torres,Valencia,Centrocampista,20
+529,Kevin Gameiro,Valencia,Delantero,9
+530,Rodrigo Moreno,Valencia,Delantero,19
+531,Santi Mina,Valencia,Delantero,22
+532,Rubén Sobrino,Valencia,Delantero,23
+533,Fran Navarro,Valencia,Delantero,37
+534,Sergio González,Valladolid,Entrenador,0
+535,Jordi Masip,Valladolid,Portero,1
+536,Yoel Rodríguez,Valladolid,Portero,13
+537,Samuel Pérez,Valladolid,Portero,26
+538,Moisés Delgado,Valladolid,Defensa,3
+539,Kiko Olivas,Valladolid,Defensa,4
+540,Fernando Calero,Valladolid,Defensa,5
+541,Javi Moyano,Valladolid,Defensa,17
+542,Antoñito,Valladolid,Defensa,18
+543,Nacho,Valladolid,Defensa,22
+544,Mohammed Salisu,Valladolid,Defensa,28
+545,Roberto Corral,Valladolid,Defensa,34
+546,Javier Aparicio,Valladolid,Defensa,38
+547,Joaquín Fernández,Valladolid,Centrocampista,2
+548,Luismi,Valladolid,Centrocampista,6
+549,Borja Fernández,Valladolid,Centrocampista,8
+550,Rubén Alcaraz,Valladolid,Centrocampista,14
+551,Pablo Hervías,Valladolid,Centrocampista,15
+552,Toni Villa,Valladolid,Centrocampista,19
+553,Míchel,Valladolid,Centrocampista,21
+554,Anuar Mohamed,Valladolid,Centrocampista,23
+555,Keko,Valladolid,Centrocampista,24
+556,Pablo Muñoz,Valladolid,Centrocampista,31
+557,Moctar Sidi El Hacen,Valladolid,Centrocampista,37
+558,Enes Ünal,Valladolid,Delantero,9
+559,Óscar Plano,Valladolid,Delantero,10
+560,Daniele Verde,Valladolid,Delantero,11
+561,Sergi Guardiola,Valladolid,Delantero,12
+562,Duje Cop,Valladolid,Delantero,20
+563,Miguel De la Fuente,Valladolid,Delantero,27
+564,Kuki Zalazar,Valladolid,Delantero,39
+565,Stiven Plaza,Valladolid,Delantero,42
+566,Javier Calleja,Villarreal,Entrenador,0
+567,Sergio Asenjo,Villarreal,Portero,1
+568,Andrés Fernández,Villarreal,Portero,13
+569,Mariano Barbosa,Villarreal,Portero,25
+570,Mario Gaspar,Villarreal,Defensa,2
+571,Álvaro González,Villarreal,Defensa,3
+572,Ramiro Funes Mori,Villarreal,Defensa,4
+573,Víctor Ruiz,Villarreal,Defensa,6
+574,Jaume Costa,Villarreal,Defensa,11
+575,Miguelón,Villarreal,Defensa,15
+576,Daniele Bonera,Villarreal,Defensa,23
+577,Pepe Castaño,Villarreal,Defensa,33
+578,Xavier Quintillá,Villarreal,Defensa,39
+579,Andrei Ratiu,Villarreal,Centrocampista,-
+580,Santiago Cáseres,Villarreal,Centrocampista,5
+581,Pablo Fornals,Villarreal,Centrocampista,8
+582,Vicente Iborra,Villarreal,Centrocampista,10
+583,Manu Trigueros,Villarreal,Centrocampista,14
+584,Alfonso Pedraza,Villarreal,Centrocampista,16
+585,Javi Fuego,Villarreal,Centrocampista,18
+586,Santi Cazorla,Villarreal,Centrocampista,19
+587,Bruno Soriano,Villarreal,Centrocampista,21
+588,Manuel Morlanes,Villarreal,Centrocampista,28
+589,Samuel Chukwueze,Villarreal,Centrocampista,30
+590,Iván Martín,Villarreal,Centrocampista,37
+591,Gerard Moreno,Villarreal,Delantero,7
+592,Carlos Bacca,Villarreal,Delantero,9
+593,Karl Toko Ekambi,Villarreal,Delantero,17
+594,Raba,Villarreal,Delantero,22

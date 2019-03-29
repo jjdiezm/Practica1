@@ -1,7 +1,11 @@
 # -*- coding: utf-8 -*-
 """
 Created on Fri Mar 29 08:44:48 2019
-
+Descripció:
+    Practica nº1 : Tipología i cicle de vida de les dades.
+    Implementació pràctica de webscraping en diari esportiu per generar
+    un dataset d'analisi sobre el funcionament de la lliga 2018-2019.
+    
 @author: Quim.
 """
 
@@ -16,6 +20,7 @@ import requests
 import re
 import pandas as pd
 
+# URL's on fer webscraping
 urls=["https://www.marca.com/futbol/primera-division/calendario.html?intcmp=MENUMIGA&s_kw=calendario",
       "https://www.marca.com/futbol/primera/equipos.html?intcmp=MENUMIGA&s_kw=equipos-y-jugadores"]
 
@@ -52,6 +57,7 @@ for m in range(20):
         pos_jug=equipos[0].find_all("span", class_="posicion")
         
         for k in range(len(noms_jug)):
-            EQ=EQ.append({'Nom':noms_jug[k].text.strip(),'Equip': nomEquip.strip(), 'Funcio':pos_jug[k].text.strip(), 'Dorsal':dorsals[k].text.strip()}, ignore_index=True)  
-        
+            EQ=EQ.append({'Nom':noms_jug[k].text.strip(),'Equip': nomEquip.strip(), 'Funcio':pos_jug[k].text.strip(), 'Dorsal':dorsals[k].text.strip()}, ignore_index=True)
+    
+EQ.to_csv("jugadors.csv")
 
