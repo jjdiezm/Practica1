@@ -1,0 +1,23 @@
+  if(document.domain.indexOf("navidad")>-1){
+    jQuery('.btn-fb').click(function(){
+        var gifname = jQuery(this).parent().parent().parent().find('img').attr("src").split("/");
+        var giflength = gifname.length;
+        envioSC("clic compartir facebook gif:"+gifname[giflength-1]);
+    });
+    jQuery('.btn-tw').click(function(){
+        var gifname = jQuery(this).parent().parent().parent().find('img').attr("src").split("/");
+        var giflength = gifname.length;
+        envioSC("clic compartir twitter gif:"+gifname[giflength-1]);
+    });
+    jQuery('.btn-g').click(function(){
+        var gifname = jQuery(this).parent().parent().parent().find('img').attr("src").split("/");
+        var giflength = gifname.length;
+        envioSC("clic compartir google gif:"+gifname[giflength-1]);
+    });
+    jQuery('.btn-download').click(function(){
+        var gifname = jQuery(this).parent().parent().parent().find('img').attr("src").split("/");
+        var giflength = gifname.length;
+        envioSC("clic descargar gif:"+gifname[giflength-1]);
+    });
+    }
+ 

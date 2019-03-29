@@ -4,27 +4,52 @@ Created on Fri Mar 29 08:44:48 2019
 
 @author: Quim.
 """
+
+# equipos_marca=["alaves","athletic","atletico","barcelona","betis","celta","eibar","espanyol","getafe","girona","huesca","leganes","levante","rayo","real-madrid","real-sociedad","sevilla","valencia","valladolid","villarreal"]
+# "https://www.marca.com/futbol/" & equipos_marca[k] & "/plantilla.html?intcmp=MENUMIGA&s_kw=plantilla-y-datos-del-club"
+
+
 # Llibreries per implementar Web scraping.
 import numpy as np
 from bs4 import BeautifulSoup
 import requests
+import re
+import pandas as pd
 
 urls=["https://www.marca.com/futbol/primera-division/calendario.html?intcmp=MENUMIGA&s_kw=calendario",
       "https://www.marca.com/futbol/primera/equipos.html?intcmp=MENUMIGA&s_kw=equipos-y-jugadores"]
-pag_link ='file:///D:/_UOC/CursMaster/11-Tipologia_i_Cicle_de_Vida_de_Dades/PRACTICA_1/code/Practica1/headers/test.html'
+pag_link = urls[1]
 # obtenir codi font de la website
+
 pag_resp = requests.get(pag_link)
 # raspat html
-pag_content = BeautifulSoup(pag_resp.content, "html.parser")
+#pag_content = BeautifulSoup(pag_resp.content, "lxml")
+pag_content = BeautifulSoup(pag_resp.text, "lxml")
 
 # Accés al contingut HTML de la pàgina web.
-prices = pag_content.find_all(class_='main_price')
-# prices has a form:
+
+equipos = pag_content.find_all("li",id='nombreEquipo')
+#equipos = pag_content.find_all('ul', {'class': ['plantillas-equipos']}) 
+EQ== pd.DataFrame(columns=('nom', 'dorsal', 'equip', 'funcio'))
+if equipos:
+    element=equipos[0].find("h2",class_="cintillo")
+    nomEquip=element.text
+    element=equipos[0].find_all("dl")
+    p1=element[0].find_all("dd")
+    entrenador=p1[0].text
+    jugadors=p1[1].find_all("li")
+    dorsals=jugadors[0].find_all("strong")
+    noms=jugadors[0].find_all("span",class_="dorsal-jugador")
+    a=dorsals[0].text
+    jug1=noms[0].text
+    
+    EQ.insert(registre)
+    
+    for e in equipos:
+        print(e)
+
 #[<div class="main_price">Price: $66.68</div>,
 # <div class="main_price">Price: $56.68</div>]
-
-# Accedir al contingut
-prices = pag_content.find_all('div', attrs={'class':'main_price'})
 
 # generació de diferents 'user agent'
 agents=["Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322)",
