@@ -17,8 +17,11 @@ Descripció:
 import numpy as np
 from bs4 import BeautifulSoup
 import requests
-import re
+#import re
 import pandas as pd
+import pickle
+from skimage import io
+import time
 
 # URL's on fer webscraping
 urls=["https://www.marca.com/futbol/primera-division/calendario.html?intcmp=MENUMIGA&s_kw=calendario",
@@ -29,23 +32,19 @@ equips_marca=["alaves","athletic","atletico","barcelona","betis","celta","eibar"
                "valencia","valladolid","villarreal"]
 
 EQ= pd.DataFrame(columns=('Nom', 'Equip', 'Funcio', 'Dorsal'))
-#for m in range(len(equips_marca)):
-for m in range(20):
+Fotos=dict()
+time_start = time.time()
+for m in range(len(equips_marca)):
+#for m in range(1):
     url1="https://www.marca.com/futbol/" + equips_marca[m] + "/plantilla.html?intcmp=MENUMIGA&s_kw=plantilla-y-datos-del-club"
-    if m==7:
-        a=1
     pag_link = url1
-    # obtenir codi font de la website
-    
+    # obtenir codi font de la website 
     pag_resp = requests.get(pag_link)
     # raspat html
     #pag_content = BeautifulSoup(pag_resp.content, "lxml")
     pag_content = BeautifulSoup(pag_resp.text, "lxml")
-    
     # Accés al contingut HTML de la pàgina web.
-    
     equipos = pag_content.find_all("ul",class_='plantilla')
-    #equipos = pag_content.find_all('ul', {'class': ['plantillas-equipos']}) 
     
     if equipos:
         element=equipos[0].find_all("li")
@@ -55,9 +54,19 @@ for m in range(20):
         dorsals=equipos[0].find_all("strong")
         noms_jug=equipos[0].find_all("span", class_="dorsal-jugador")
         pos_jug=equipos[0].find_all("span", class_="posicion")
-        
+        dirFoto=equipos[0].find_all("img")
+        print("Raspat dels jugadors de : " + nomEquip)
         for k in range(len(noms_jug)):
             EQ=EQ.append({'Nom':noms_jug[k].text.strip(),'Equip': nomEquip.strip(), 'Funcio':pos_jug[k].text.strip(), 'Dorsal':dorsals[k].text.strip()}, ignore_index=True)
-    
+            imatge = io.imread(dirFoto[k]['src'].strip())
+            Fotos.update({nomEquip.strip() + "_" + dorsals[k].text + "_" + noms_jug[k].text.replace(" ","_") :imatge})
+print("Webscraping finalitzat...\nInici del backup a disk.")
 EQ.to_csv("jugadors.csv")
+with open('fotos.pickle', 'wb') as fitxer:
+    pickle.dump(Fotos, fitxer, protocol=pickle.HIGHEST_PROTOCOL)
+print("PROCÉS FINALITZAT  en " + str(int(np.round((time.time()-time_start)/60,0))) + " minuts i ", str(int(np.round((time.time()-time_start) % 60,0))) + " segons.")
+
+#with open('fotos.', 'wb') as f:
+#    f.write(response)
+
 

@@ -1,0 +1,23 @@
+Raspat dels jugadors de : Alavés
+Raspat dels jugadors de : Athletic
+Raspat dels jugadors de : Atlético
+Raspat dels jugadors de : Barça
+Raspat dels jugadors de : Betis
+Raspat dels jugadors de : Celta
+Raspat dels jugadors de : Eibar
+Raspat dels jugadors de : Espanyol
+Raspat dels jugadors de : Getafe
+Raspat dels jugadors de : Girona
+Raspat dels jugadors de : Huesca
+Raspat dels jugadors de : Leganés
+Raspat dels jugadors de : Levante
+Raspat dels jugadors de : Rayo
+Raspat dels jugadors de : Real Madrid
+Raspat dels jugadors de : Real Sociedad
+Raspat dels jugadors de : Sevilla FC
+Raspat dels jugadors de : Valencia
+Raspat dels jugadors de : Valladolid
+Raspat dels jugadors de : Villarreal
+Webscraping finalitzat...
+Inici del backup a disk.
+PROCÉS FINALITZAT  en 1 minuts i  24 segons.
