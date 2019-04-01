@@ -48,7 +48,7 @@ proxies = ["http://145.253.253.52:8080", "http://34.244.2.233:8123"]
 
 try:
     # Definim l'estructura del dataframe.
-    EQ= pd.DataFrame(columns=('Nom', 'Equip', 'Funcio', 'Dorsal'))
+    EQ= pd.DataFrame(columns=('idDB','Nom', 'Equip', 'Funcio', 'Dorsal'))
     # Diccinari que guarda les fotografies dels jugadors.
     Fotos=dict()
     # Càlcul del temps de durada del procés de web-scraping.
@@ -90,11 +90,18 @@ try:
             noms_jug=equipos[0].find_all("span", class_="dorsal-jugador")
             pos_jug=equipos[0].find_all("span", class_="posicion")
             dirFoto=equipos[0].find_all("img")
+            
             # Notificació a l'usuari de quin equip s'està processant.
             print("Raspat dels jugadors de : " + nomEquip)
             # Bucle per emmagatzemar les dades en el dataframe.
             for k in range(len(noms_jug)):
-                EQ=EQ.append({'Nom':noms_jug[k].text.strip(),'Equip': nomEquip.strip(), 'Funcio':pos_jug[k].text.strip(), 'Dorsal':dorsals[k].text.strip()}, ignore_index=True)
+                idDB=dirFoto[k]['src'].strip().split("/")[-1]
+                idDB=idDB.split(".")[0]
+                try:
+                    idDB = int(idDB)
+                except ValueError:
+                    idDB=""
+                EQ=EQ.append({'idDB':idDB, 'Nom':noms_jug[k].text.strip(),'Equip': nomEquip.strip(), 'Funcio':pos_jug[k].text.strip(), 'Dorsal':dorsals[k].text.strip()}, ignore_index=True)
                 # Descarrega de les imatges de cada jugador.
                 imatge = io.imread(dirFoto[k]['src'].strip())
                 Fotos.update({nomEquip.strip() + "_" + dorsals[k].text + "_" + noms_jug[k].text.replace(" ","_") :imatge})
