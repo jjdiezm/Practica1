@@ -18,7 +18,7 @@ Les dades obtingudes queden emmatgazemades en dos fitxers segons el tipus de con
 </p>  
 <li> fotos.pickle</li>
 <p>
-    Conté en format binari les fotografies de tots els 595 jugadors inscrits. En le cas de no disposar de fotografia se li assigna una   imatge per defecte de color fosc, i per cada fotografia les dades alfanumèriques identificatives en format:
+    Conté en format binari les fotografies de tots els 595 jugadors inscrits. En el cas de no disposar de fotografia se li assigna una   imatge per defecte de color fosc, i per cada fotografia les dades alfanumèriques identificatives en format:
   nomEquip_dorsal_nomJugador
 </p>
 </ol>
