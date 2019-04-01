@@ -24,7 +24,7 @@ Les dades obtingudes queden emmatgazemades en dos fitxers segons el tipus de con
 </ol>
 </p>
 
-## Q_WebScraping2.py
+### Q_WebScraping2.py
 <p>
 Obté les dades de les estadístiques dels 100 millors jugadors de la lliga.
 <ol>
