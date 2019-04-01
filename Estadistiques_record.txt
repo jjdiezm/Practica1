@@ -1,0 +1,142 @@
+{"status":"success",
+ "data":
+  {
+    "classificationHead":
+    {
+      "tournament":
+      {
+        "sportId":"01",
+        "name":"LaLiga Santander",
+        "id":"0101",
+        "alternateNames":
+        {
+          "esES":"LaLiga Santander",
+          "enEN":"LaLiga Santander"
+         }
+       },
+      "season":
+       {"name":"2018-19",
+        "id":"2018"},
+        "sport":
+        {"alternateNames":
+          {"esES":"Fútbol",
+           "enEN":"Football"
+          },
+         "id":"01",
+         "name":"Fútbol",
+         "type":"match"
+         }
+       }
+      "rank":
+       [
+         {"id":"01_0101_2018_19054",
+          "playerId":"19054","knownName":"Messi","teamName":"Barcelona",
+          "playerPosition":
+           {"id":"4",
+            "name":"delantero",
+            "alternateNames":
+             {"ptBR":"atacante",
+              "esES":"delantero",
+              "enEN":"forward"
+              }
+           },
+          "goals":31,
+          "rankGoals":1,
+          "averageGoals":1.15,
+          "games":27,
+          "cards":2,
+          "rankCards":235,
+          "yellowCards":2,
+          "rankRedCards":229,
+          "assists":12,
+          "rankAssists":1,
+          "averageAssists":0.44,
+          "passes":1532,
+          "successPasses":1258,
+          "rankSuccessPasses":15,
+          "averageSuccessPasses":82.11,
+          "rankPasses":12,
+          "goalsConceded":20,
+          "rankGoalsConceded":169,
+          "averageGoalsConceded":0.74
+          }
+
+
+'id', 'playerId', 'knownName', 'teamName', 'playerPosition', 'goals', 'rankGoals', 'averageGoals', 'games', 'cards', 'rankCards', 'yellowCards', 'rankRedCards', 'assists', 'rankAssists', 'averageAssists', 'passes', 'successPasses', 'rankSuccessPasses', 'averageSuccessPasses', 'rankPasses', 'goalsConceded', 'rankGoalsConceded', 'averageGoalsConceded'
+pd.dataFrame('id', 'jug_id', 'nom', 'nomEquip', 'posicio', 'gols', 'ranking_gols', 'promig_gols', 'partits', 'targetes', 'ranking_targetes', 'targetes_grogues', 'ranking_targetes_vermelles', 'assistencies', 'ranking_assistencies', 'promig_assistencies', 'passes', 'passes_bons', 'ranking_passes_bons', 'promig_passes_bons', 'ranking_passes', 'gols_ok', 'ranking_gols_ok', 'promig_gols_ok') 
+
+
+
+    std_jug.append({'id':l['id'], 
+                    'jug_id':l['playerId'], 
+                    'nom':l['knownName'], 
+                    'nomEquip':l['teamName'], 
+                    'posicio':l['playerPosition']['name'], 
+                    'gols':if(l['goals']) l['goals'] else 0, 
+                    'ranking_gols':if(l['rankGoals']) l['rankGoals'] else 0, 
+                    'promig_gols':if(l['averageGoals']) l['averageGoals'] else 0, 
+                    'partits':if(l['games']) l['games'] else 0, 
+                    'targetes':if(l['cards']) l['cards'] else 0, 
+                    'ranking_targetes':if(l['rankCards']) l['rankCards'] else 0, 
+                    'targetes_grogues':if(l['yellowCards']) l['yellowCards'] else 0, 
+                    'ranking_targetes_vermelles':if(l['rankRedCards']) l['rankRedCards'] else 0, 
+                    'assistencies':if(l['assists']) l['assists'] else 0, 
+                    'ranking_assistencies':if(l['rankAssists']) l['rankAssists'] else 0, 
+                    'promig_assistencies':if(l['averageAssists']) l['averageAssists'] else 0, 
+                    'passes':if(l['passes']) l['passes'] else 0, 
+                    'passes_bons':if(l['successPasses']) l['successPasses'] else 0, 
+                    'ranking_passes_bons':if(l['rankSuccessPasses']) l['rankSuccessPasses'] else 0, 
+                    'promig_passes_bons':if(l['averageSuccessPasses']) l['averageSuccessPasses'] else 0, 
+                    'ranking_passes':if(l['rankPasses']) l['rankPasses'] else 0, 
+                    'gols_ok':if(l['goalsConceded']) l['goalsConceded'] else 0, 
+                    'ranking_gols_ok':if(l['rankGoalsConceded']) l['rankGoalsConceded'] else 0, 
+                    'promig_gols_ok':if(l['averageGoalsConceded']) l['averageGoalsConceded'] else 0}, ignore_index=True)
+
+
+---------------
+
+    std_jug.append({'id':l['id'], 
+                    'jug_id':l['playerId'], 
+                    'nom':l['knownName'], 
+                    'nomEquip':l['teamName'], 
+                    'posicio':l['playerPosition']['name'], 
+                    'gols':if(l['goals']) l['goals'] else 0, 
+                    'ranking_gols':if(l['rankGoals']) l['rankGoals'] else 0, 
+                    'promig_gols':l['averageGoals'], 
+                    'partits':l['games'], 'targetes':l['cards'], 
+                    'ranking_targetes':l['rankCards'], 
+                    'targetes_grogues':l['yellowCards'], 
+                    'ranking_targetes_vermelles':l['rankRedCards'], 
+                    'assistencies':l['assists'], 
+                    'ranking_assistencies':l['rankAssists'], 
+                    'promig_assistencies':l['averageAssists'], 
+                    'passes':l['passes'], 
+                    'passes_bons':l['successPasses'], 
+                    'ranking_passes_bons':l['rankSuccessPasses'], 
+                    'promig_passes_bons':l['averageSuccessPasses'], 
+                    'ranking_passes':l['rankPasses'], 
+                    'gols_ok':l['goalsConceded'], 
+                    'ranking_gols_ok':l['rankGoalsConceded'], 
+                    'promig_gols_ok':l['averageGoalsConceded']}, ignore_index=True)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
