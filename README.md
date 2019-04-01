@@ -75,7 +75,19 @@ Els atributs inclosos en les estadístiques son:
 ### Visualitza_Jugadors.py
 
 <p>
-  Llegeix el fitxer 'Fotos.pickle' que conté les imatges de cada jugador i les imprimeix.
+  Utilitza la funció 'jugadors_equips' per llegir el fitxer 'Fotos.pickle' que conté, en format binari, les imatges de cada jugador.
+  Ex:
+        jugadors_equips(['Betis','Eibar'])  
+ <ol>
+  <li>Carregaria totes les imatges en un diccionari.</li>
+  <li>Mostraria les imatges dels jugadors del Betis i de l'Eibar.</li>
+  <li>Si li passem una llista buida, crea el diccionari i no mostra res en la sortida de l'intrepret de python.</li>
+  <li>Si li passem la següent llista imprimiria totes les fotografies dels jugadors de la lliga.</li>
+  <p>
+   equips_marca=["alaves","athletic","atletico","barcelona","betis","celta","eibar","espanyol","getafe",
+               "girona","huesca","leganes","levante","rayo","real-madrid","real-sociedad","sevilla",
+               "valencia","valladolid","villarreal"]
+  </p>
 </p>
 
 ### Llegir_CSV.py
