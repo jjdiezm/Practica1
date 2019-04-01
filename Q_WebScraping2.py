@@ -25,7 +25,7 @@ import time
 import json
 
 # URL's on fer webscraping de les ESTADISTIQUES DELS JUGADORS
-url='https://api.unidadeditorial.es/sports/v1/player-total-rank/sport/01/tournament/0101/sort/goals/current/?site=2&mn=50'
+url='https://api.unidadeditorial.es/sports/v1/player-total-rank/sport/01/tournament/0101/sort/goals/current/?site=2&mn=100'
 
 agents=["Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322)",
 "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36",
