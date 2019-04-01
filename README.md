@@ -22,10 +22,11 @@ Les dades obtingudes queden emmatgazemades en dos fitxers segons el tipus de con
 </ol>
   </p>
 ### Q_WebScraping2.py
-
+<p>
 Obté les dades de les estadístiques dels 100 millors jugadors de la lliga.
-c) Estadístiques.csv
-
+<ol>
+  <li> Estadístiques.csv </li>
+<p>
 Els atributs inclosos en les estadístiques son:
 
                     'jug_id':  id assignat en la base de dades.                 Ex: '01_0101_2018_19054'
@@ -39,7 +40,7 @@ Els atributs inclosos en les estadístiques son:
                   'targetes':  nº de targetes que li han mostrat.               Ex: 2
           'ranking_targetes':  posició en el ranking de targetes.               Ex: 240
           'targetes_grogues':  nº de targetes grogues rebudes.                  Ex: 2
-'ranking_targetes_vermelles':  posició en el ranking de targetes vermelles.     Ex: 233
+          'ranking_targetes_vermelles':  posició en el ranking de targetes vermelles.     Ex: 233
               'assistencies':  nº d'assistències realitzades.                   Ex: 12
       'ranking_assistencies':  posició en el ranking de assistències.           Ex: 1
        'promig_assistencies':  promig d'assistències.                           Ex: 0.44
@@ -52,5 +53,6 @@ Els atributs inclosos en les estadístiques son:
            'ranking_gols_ok':  posició en el ranking de gols ok.                Ex: 170
             'promig_gols_ok':  promig de gols ok.                               Ex: 0.74
   
-
-
+</p>
+</ol>
+</p>
