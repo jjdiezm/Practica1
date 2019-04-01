@@ -8,20 +8,23 @@ Obté les plantilles de la lliga de Primera Divisió del Futbol Espanyol - Tempo
 Les dades obtingudes queden emmatgazemades en dos fitxers segons el tipus de continguts:
 <ol>
 <li> jugadors.csv</li>
-  <p>
+<p>
   Conté les dades alfanumèriques:
     'idDB':  codi assignat al jugador en la base de dades.
      'Nom':  nom del jugador.
    'Equip':  equip en el que juga.
   'Funcio':  funció al camp, posició de joc.
-    'Dorsal':  número que porta a la samarreta.</p>
-  
+    'Dorsal':  número que porta a la samarreta.
+</p>  
 <li> fotos.pickle</li>
-  <p>Conté en format binari les fotografies de tots els 595 jugadors inscrits. En le cas de no disposar de fotografia se li assigna una   imatge per defecte de color fosc, i per cada fotografia les dades alfanumèriques identificatives en format:
-  nomEquip_dorsal_nomJugador</p>
+<p>
+    Conté en format binari les fotografies de tots els 595 jugadors inscrits. En le cas de no disposar de fotografia se li assigna una   imatge per defecte de color fosc, i per cada fotografia les dades alfanumèriques identificatives en format:
+  nomEquip_dorsal_nomJugador
+</p>
 </ol>
-  </p>
-### Q_WebScraping2.py
+</p>
+
+## Q_WebScraping2.py
 <p>
 Obté les dades de les estadístiques dels 100 millors jugadors de la lliga.
 <ol>
