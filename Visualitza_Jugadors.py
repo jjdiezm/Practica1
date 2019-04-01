@@ -35,4 +35,4 @@ def jugadors_equips(l):
         print("Plantilla "+ str(num) + " jugadors.")
     return
 
-jugadors_equips(['Betis','Eibar'])
+jugadors_equips([])
