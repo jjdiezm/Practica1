@@ -2,6 +2,20 @@
 
 ## Webscraping - Liga de Fútbol.
 
+<<<<<<< HEAD
+=======
+## Propòsit general
+
+<p>
+<ol>
+ <li style=" font-color:royalblue">Disposar de les estadístiques dels jugadors més rellevants de la lliga de futbol en la temporada 2018-2019.</li>
+ <li style=" color:royalblue">Disposar de les imatges per poder aplicar algorismes ML de 'face-recognition'.</li>
+</ol>
+</p>
+
+## Fitxers font en python:
+
+>>>>>>> 976a84f6f12e9e78e48da26bc3afe49d09de533f
 ### Q_WebScraping1.py
 <p>
 Obté les plantilles de la lliga de Primera Divisió del Futbol Espanyol - Temporada 2018-2019.
@@ -28,7 +42,11 @@ Les dades obtingudes queden emmatgazemades en dos fitxers segons el tipus de con
 <p>
 Obté les dades de les estadístiques dels 100 millors jugadors de la lliga.
 <ol>
+<<<<<<< HEAD
   <li> Estadístiques.csv </li>
+=======
+  <li> Estadístiques_jugadors.csv </li>
+>>>>>>> 976a84f6f12e9e78e48da26bc3afe49d09de533f
 <p>
 Els atributs inclosos en les estadístiques son:
 
@@ -60,3 +78,29 @@ Els atributs inclosos en les estadístiques son:
 </p>
 </ol>
 </p>
+<<<<<<< HEAD
+=======
+
+### Visualitza_Jugadors.py
+
+<p>
+  Utilitza la funció 'jugadors_equips' per llegir el fitxer 'Fotos.pickle' que conté, en format binari, les imatges de cada jugador.
+  Ex:
+        jugadors_equips(['Betis','Eibar'])  
+ <ol>
+  <li>Carregaria totes les imatges en un diccionari.</li>
+  <li>Mostraria les imatges dels jugadors del Betis i de l'Eibar.</li>
+  <li>Si li passem una llista buida, crea el diccionari i no mostra res en la sortida de l'intrepret de python.</li>
+  <li>Si li passem la següent llista imprimiria totes les fotografies dels jugadors de la lliga.</li>
+  <br>
+  <p>
+   equips_marca=["alaves","athletic","atletico","barcelona","betis","celta","eibar","espanyol","getafe","girona","huesca",
+   "leganes","levante","rayo","real-madrid","real-sociedad","sevilla","valencia","valladolid","villarreal"]
+  </p>
+  </ol>
+</p>
+
+### Llegir_CSV.py
+<p>
+  Exemple d'ús de com carregar les dades resultants del webscraping en dues variables de Python, per iniciar els processos d'anàlisi.</p>
+>>>>>>> 976a84f6f12e9e78e48da26bc3afe49d09de533f
