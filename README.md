@@ -85,7 +85,8 @@ Els atributs inclosos en les estadístiques son:
   <li>Si li passem la següent llista imprimiria totes les fotografies dels jugadors de la lliga.</li>
   <br>
   <p>
-   #####equips_marca=["alaves","athletic","atletico","barcelona","betis","celta","eibar","espanyol","getafe","girona","huesca","leganes","levante","rayo","real-madrid","real-sociedad","sevilla","valencia","valladolid","villarreal"]
+   
+###equips_marca=["alaves","athletic","atletico","barcelona","betis","celta","eibar","espanyol","getafe","girona","huesca","leganes","levante","rayo","real-madrid","real-sociedad","sevilla","valencia","valladolid","villarreal"]
   </p>
   </ol>
 </p>
