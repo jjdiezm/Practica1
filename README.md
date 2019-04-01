@@ -83,15 +83,13 @@ Els atributs inclosos en les estadístiques son:
   <li>Mostraria les imatges dels jugadors del Betis i de l'Eibar.</li>
   <li>Si li passem una llista buida, crea el diccionari i no mostra res en la sortida de l'intrepret de python.</li>
   <li>Si li passem la següent llista imprimiria totes les fotografies dels jugadors de la lliga.</li>
-  <p>
+  <blockquote>
    equips_marca=["alaves","athletic","atletico","barcelona","betis","celta","eibar","espanyol","getafe",
                "girona","huesca","leganes","levante","rayo","real-madrid","real-sociedad","sevilla",
                "valencia","valladolid","villarreal"]
-  </p>
+  </blockquote>
 </p>
 
 ### Llegir_CSV.py
-
 <p>
-  Exemple d'ús de com carregar les dades resultants del webscraping en dues variables de Python, per iniciar els processos d'anàlisi.
-  </p>
+  Exemple d'ús de com carregar les dades resultants del webscraping en dues variables de Python, per iniciar els processos d'anàlisi.</p>
