@@ -126,7 +126,7 @@ try:
     # Notificació de finalització del web scraping i inici de backup a disc.
     print("Webscraping finalitzat...\nInici del backup a disk.")
     # Backup a disk en format CSV.
-    std_jug.to_csv("estadistiques_jugadors.csv")
+    std_jug.to_csv("estadistiques_jugadors.csv", index=False)
     # S'emmagatzemen les dades alfanumeriques en format CSV 
     # Notificació de finalització del procés.
     print("PROCÉS FINALITZAT  en " + str(int(np.round((time.time()-time_start)/60,0))) + " minuts i ", str(int(np.round((time.time()-time_start) % 60,0))) + " segons.")
