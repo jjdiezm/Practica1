@@ -2,8 +2,6 @@
 
 ## Webscraping - Liga de Fútbol.
 
-<<<<<<< HEAD
-=======
 ## Propòsit general
 
 <p>
@@ -42,11 +40,9 @@ Les dades obtingudes queden emmatgazemades en dos fitxers segons el tipus de con
 <p>
 Obté les dades de les estadístiques dels 100 millors jugadors de la lliga.
 <ol>
-<<<<<<< HEAD
-  <li> Estadístiques.csv </li>
-=======
+
   <li> Estadístiques_jugadors.csv </li>
->>>>>>> 976a84f6f12e9e78e48da26bc3afe49d09de533f
+
 <p>
 Els atributs inclosos en les estadístiques son:
 
@@ -78,8 +74,6 @@ Els atributs inclosos en les estadístiques son:
 </p>
 </ol>
 </p>
-<<<<<<< HEAD
-=======
 
 ### Visualitza_Jugadors.py
 
@@ -103,4 +97,4 @@ Els atributs inclosos en les estadístiques son:
 ### Llegir_CSV.py
 <p>
   Exemple d'ús de com carregar les dades resultants del webscraping en dues variables de Python, per iniciar els processos d'anàlisi.</p>
->>>>>>> 976a84f6f12e9e78e48da26bc3afe49d09de533f
+
