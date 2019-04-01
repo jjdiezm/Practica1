@@ -84,10 +84,8 @@ Els atributs inclosos en les estadístiques son:
   <li>Si li passem una llista buida, crea el diccionari i no mostra res en la sortida de l'intrepret de python.</li>
   <li>Si li passem la següent llista imprimiria totes les fotografies dels jugadors de la lliga.</li>
   <br>
-  <p style="font-size:12px">
-   equips_marca=["alaves","athletic","atletico","barcelona","betis","celta","eibar","espanyol","getafe",
-               "girona","huesca","leganes","levante","rayo","real-madrid","real-sociedad","sevilla",
-               "valencia","valladolid","villarreal"]
+  <p>
+   #####equips_marca=["alaves","athletic","atletico","barcelona","betis","celta","eibar","espanyol","getafe","girona","huesca","leganes","levante","rayo","real-madrid","real-sociedad","sevilla","valencia","valladolid","villarreal"]
   </p>
   </ol>
 </p>
