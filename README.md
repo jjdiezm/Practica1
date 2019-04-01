@@ -2,6 +2,16 @@
 
 ## Webscraping - Liga de Fútbol.
 
+## Propòsit general
+
+<p>
+<ol>
+ <li style=" font-color:royalblue">Disposar de les estadístiques dels jugadors més rellevants de la lliga de futbol en la temporada 2018-2019.</li>
+ <li style=" font-color:royalblue">Disposar de les imatges per poder aplicar algorismes ML de 'face-recognition'.</li>
+</ol>
+</p>
+
+
 ### Q_WebScraping1.py
 <p>
 Obté les plantilles de la lliga de Primera Divisió del Futbol Espanyol - Temporada 2018-2019.
@@ -28,7 +38,7 @@ Les dades obtingudes queden emmatgazemades en dos fitxers segons el tipus de con
 <p>
 Obté les dades de les estadístiques dels 100 millors jugadors de la lliga.
 <ol>
-  <li> Estadístiques.csv </li>
+  <li> Estadístiques_jugadors.csv </li>
 <p>
 Els atributs inclosos en les estadístiques son:
 
@@ -60,3 +70,15 @@ Els atributs inclosos en les estadístiques son:
 </p>
 </ol>
 </p>
+
+### Visualitza_Jugadors.py
+
+<p>
+  Llegeix el fitxer '<b>Fotos.pickle</b>' que conté les imatges de cada jugador i les imprimeix.
+</p>
+
+### Llegir_CSV.py
+
+<p>
+  Exemple d'ús de com carregar les dades resultants del webscraping en dues variables de Python, per iniciar els processos d'anàlisi.
+  </p>
