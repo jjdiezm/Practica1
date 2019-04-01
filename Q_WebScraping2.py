@@ -60,11 +60,22 @@ try:
         # Es torna a provar la petició, ara amb un temps d'espera de 5 segons.
         pag_resp = requests.get(pag_link, proxies=proxy, headers=header, timeout=5)
     # Cas status_code==200 - Accés al contingut HTML de la pàgina web.
+    # Llegim la resposta en format JSON.
     data=json.loads(pag_resp.text)
+    #Guardem totes les files del dataframe final en una llista
     dataframe_list=[]
+    # La key 'rank' és la que conté les estadístiques.
+    # Bucle per validar quínes estadístiques obtenim de cada jugador
+    # d'entre les possibles. Si no hi ha estadística guardem "" o 0.
     for l in data["data"]['rank']:
+        # Per saber quínes estadìstiques podem 'raspar', mirem les
+        # keys del registre en JSON, que podem tractar com un diccionari
         llista=l.keys()
+        # fila es una llista d'estadístiques raspades i amb valors "" o 0,
+        # preparada per insertar en el dataframe final.
         fila=[]
+        # Per cada estadística mirem si existeix per el jugador actual o és nula.
+        # El valor de la variable es afegit a la llista 'fila'.
         vId                         = (l['id'] if 'id' in llista else "")
         fila.append(vId)
         vNom                        = (l['knownName'] if 'knownName' in llista else "")
@@ -111,12 +122,15 @@ try:
         fila.append(ranking_gols_ok)
         promig_gols_ok              = (l['averageGoalsConceded'] if 'averageGoalsConceded' in llista else 0)
         fila.append(promig_gols_ok)
+        # Afegim la fila a la llista final que utilitzarem per generar el dataframe final.
         dataframe_list.append(fila)
-    
+    # Estructura del dataframe original que raspem.
     #std_jug= pd.DataFrame('id', 'playerId', 'knownName', 'teamName', 'playerPosition', 'goals', 'rankGoals', 
     #                      'averageGoals', 'games', 'cards', 'rankCards', 'yellowCards', 'rankRedCards', 'assists', 'rankAssists', 
     #                      'averageAssists', 'passes', 'successPasses', 'rankSuccessPasses', 'averageSuccessPasses', 'rankPasses', 
     #                      'goalsConceded', 'rankGoalsConceded', 'averageGoalsConceded')
+    
+    # Generació del dataframe final: Definim totes les estadístiques personalitzades i la llista de valors creada en el bucle anterior.
     std_jug=pd.DataFrame(columns=('jug_id', 'nom', 'nomEquip', 'posicio', 'gols', 'ranking_gols', 'promig_gols', 
                                   'partits', 'targetes', 'ranking_targetes', 'targetes_grogues', 'ranking_targetes_vermelles', 
                                   'assistencies', 'ranking_assistencies', 'promig_assistencies', 'passes', 'passes_bons', 
