@@ -18,14 +18,16 @@
 Obté les plantilles de la lliga de Primera Divisió del Futbol Espanyol - Temporada 2018-2019.
 Les dades obtingudes queden emmatgazemades en dos fitxers segons el tipus de continguts:
 <ol>
-<li> jugadors.csv</li>
+<li> Jugadors.csv</li>
 <p>
   Conté les dades alfanumèriques:
-    'idDB':  codi assignat al jugador en la base de dades.
-     'Nom':  nom del jugador.
-   'Equip':  equip en el que juga.
-  'Funcio':  funció al camp, posició de joc.
-    'Dorsal':  número que porta a la samarreta.
+ <ul>
+  <li>'idDB':  codi assignat al jugador en la base de dades.</li>
+  <li>'Nom':  nom del jugador.</li>
+  <li>'Equip':  equip en el que juga.</li>
+  <li>'Funcio':  funció al camp, posició de joc.</li>
+    <li>'Dorsal':  número que porta a la samarreta.</li>
+ </ul>
 </p>  
 <li> fotos.pickle</li>
 <p>
