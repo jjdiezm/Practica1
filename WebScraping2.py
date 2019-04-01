@@ -6,7 +6,7 @@ Descripció:
     Implementació pràctica de webscraping en diari esportiu per generar
     un dataset d'analisi sobre el funcionament de la lliga 2018-2019.
     
-@author: Quim.
+@author:  Grup pràctiques:  Quim Dalmases / Juanjo Díez
 """
 
 # equipos_marca=["alaves","athletic","atletico","barcelona","betis","celta","eibar","espanyol","getafe","girona","huesca","leganes","levante","rayo","real-madrid","real-sociedad","sevilla","valencia","valladolid","villarreal"]
