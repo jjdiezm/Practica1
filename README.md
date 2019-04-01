@@ -11,7 +11,7 @@
 </ol>
 </p>
 
-## Fitxers font: python.
+## Fitxers font en python:
 
 ### Q_WebScraping1.py
 <p>
@@ -75,7 +75,7 @@ Els atributs inclosos en les estadístiques son:
 ### Visualitza_Jugadors.py
 
 <p>
-  Llegeix el fitxer '<b>Fotos.pickle</b>' que conté les imatges de cada jugador i les imprimeix.
+  Llegeix el fitxer 'Fotos.pickle' que conté les imatges de cada jugador i les imprimeix.
 </p>
 
 ### Llegir_CSV.py
