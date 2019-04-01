@@ -1,0 +1,40 @@
+function ConfiguraAmp(s) {
+    s.channel = s.eVar1 = s.Util.getQueryParam("channel");
+    s.referrer = s.Util.getQueryParam("r");
+    s.prop1 = s.eVar2 = s.Util.getQueryParam("c1");
+    s.prop2 = s.eVar3 = s.Util.getQueryParam("c2");
+    s.prop3 = s.eVar4 = s.Util.getQueryParam("c3");
+    s.prop4 = s.eVar5 = s.Util.getQueryParam("c4");
+    s.prop5 = s.eVar6 = s.Util.getQueryParam("c5");
+    s.prop6 = s.eVar31 = s.Util.getQueryParam("c6");
+    s.prop7 = s.eVar7 = s.Util.getQueryParam("c7");
+    s.prop9 = s.eVar9 = s.Util.getQueryParam("c9");
+    s.prop10 = s.eVar10 = s.Util.getQueryParam("c10");
+    s.prop11 = s.eVar11 = s.Util.getQueryParam("c11");
+    s.eVar19 = s.Util.getQueryParam("c19");
+    s.prop27 = s.eVar27 = s.Util.getQueryParam("c27");
+    s.prop29 = s.eVar29 = s.Util.getQueryParam("c29");
+    s.prop30 = s.eVar30 = s.Util.getQueryParam("c30");
+    s.prop31 = s.Util.getQueryParam("c31");
+    s.prop32 = s.eVar32 = s.Util.getQueryParam("c32");
+    s.prop33 = s.eVar33 = s.Util.getQueryParam("c33");
+    s.prop52 = s.eVar52 = s.Util.getQueryParam("c52");
+    s.prop61 = s.eVar61 = s.Util.getQueryParam("c61");
+    s.prop75 = s.eVar75 = s.Util.getQueryParam("c75");
+
+    s.eVar18 = s.Util.getQueryParam("v18");
+
+    s.hier1 = s.prop7 + '|' + s.channel;
+    s.hier1 = (s.prop1)?s.hier1 + '|' + s.prop1:s.hier1;
+    s.hier1 = (s.prop2)?s.hier1 + '|' + s.prop2:s.hier1;
+    s.hier1 = (s.prop3)?s.hier1 + '|' + s.prop3:s.hier1;
+    s.hier1 = (s.prop4)?s.hier1 + '|' + s.prop4:s.hier1;
+    s.hier1 = (s.prop5)?s.hier1 + '|' + s.prop5:s.hier1;
+    s.hier1 = (s.prop6)?s.hier1 + '|' + s.prop6:s.hier1;
+
+    s.list2 = s.eVar29;
+
+    //Hay que hacerlo lo último.
+    s.pageURL = s.Util.getQueryParam("pageName");
+    s.pageName = s.pageURL.split('?')[0];
+}
