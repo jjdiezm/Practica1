@@ -18,7 +18,7 @@
 Obté les plantilles de la lliga de Primera Divisió del Futbol Espanyol - Temporada 2018-2019.
 Les dades obtingudes queden emmatgazemades en dos fitxers segons el tipus de continguts:
 <ol>
-<li> jugadors.csv</li>
+<li> Jugadors.csv</li>
 <p>
   Conté les dades alfanumèriques:
  <ul>
