@@ -7,10 +7,11 @@
 <p>
 <ol>
  <li style=" font-color:royalblue">Disposar de les estadístiques dels jugadors més rellevants de la lliga de futbol en la temporada 2018-2019.</li>
- <li style=" font-color:royalblue">Disposar de les imatges per poder aplicar algorismes ML de 'face-recognition'.</li>
+ <li style=" color:royalblue">Disposar de les imatges per poder aplicar algorismes ML de 'face-recognition'.</li>
 </ol>
 </p>
 
+## Fitxers font: python.
 
 ### Q_WebScraping1.py
 <p>
