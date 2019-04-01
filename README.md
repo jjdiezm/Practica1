@@ -13,7 +13,6 @@
 
 ## Fitxers font en python:
 
->>>>>>> 976a84f6f12e9e78e48da26bc3afe49d09de533f
 ### Q_WebScraping1.py
 <p>
 Obté les plantilles de la lliga de Primera Divisió del Futbol Espanyol - Temporada 2018-2019.
