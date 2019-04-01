@@ -89,6 +89,7 @@ Els atributs inclosos en les estadístiques son:
                "girona","huesca","leganes","levante","rayo","real-madrid","real-sociedad","sevilla",
                "valencia","valladolid","villarreal"]
   </p>
+  </ol>
 </p>
 
 ### Llegir_CSV.py
