@@ -43,8 +43,8 @@ Els atributs inclosos en les estadístiques son:
                             'targetes':  nº de targetes que li han mostrat.               Ex: 2
                     'ranking_targetes':  posició en el ranking de targetes.               Ex: 240
                     'targetes_grogues':  nº de targetes grogues rebudes.                  Ex: 2
-          'ranking_targetes_vermelles':  posició en el ranking 
-                                         de targetes vermelles.                           Ex: 233
+          'ranking_targetes_vermelles':  posició en el ranking                            Ex: 233
+                                         de targetes vermelles.                           
                         'assistencies':  nº d'assistències realitzades.                   Ex: 12
                 'ranking_assistencies':  posició en el ranking de assistències.           Ex: 1
                  'promig_assistencies':  promig d'assistències.                           Ex: 0.44
