@@ -57,4 +57,4 @@ Aquest projecte es lliura sota llicència [CC BY-NC-SA 4.0 License](https://crea
 
 ## Reconneixements
 El [diari MARCA](http://www.marca.es) és líder a Espanya en informació esportiva en format paper i digital. Cada temporada ofereix les estadístiques més rellevants que es poden obtenir, i que sense l’esforç dels mitjans de comunicació seria quasi inviable disposar d’aquestes dades.
-
+![Logo diari](https://raw.githubusercontent.com/jjdiezm/Practica1/master/base_portada/logoDiari.jpg)
