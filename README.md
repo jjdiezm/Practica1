@@ -13,7 +13,7 @@
 
 ## Fitxers font en python:
 
-### Q_WebScraping1.py
+### WebScraping1.py
 <p>
 Obté les plantilles de la lliga de Primera Divisió del Futbol Espanyol - Temporada 2018-2019.
 Les dades obtingudes queden emmatgazemades en dos fitxers segons el tipus de continguts:
@@ -37,7 +37,7 @@ Les dades obtingudes queden emmatgazemades en dos fitxers segons el tipus de con
 </ol>
 </p>
 
-### Q_WebScraping2.py
+### WebScraping2.py
 <p>
 Obté les dades de les estadístiques dels 100 millors jugadors de la lliga.
 <ol>
