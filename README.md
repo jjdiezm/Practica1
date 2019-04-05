@@ -41,8 +41,13 @@ Es pot consultar la wiki a [aquest mateix repositori](https://github.com/jjdiezm
 Aquest codi es destina a presentar una pràctica del Master de Ciència de Dades i no s'esperan contribucions de tercers.
 
 ## Authors
-Quim de Dalmases Juanet 
-Juanjo Díez Moya
+### Quim de Dalmases Juanet 
+* Usuari UOC: quimdalmases
+* Usuari GitHub: [QuimDJ](https://github.com/QuimDJ)
+
+### Juanjo Díez Moya 
+* Usuari UOC: jdiezm
+* Usuari GitHub: [jjdiezm](https://github.com/jjdiezm)
 
 ## Llicència
 Aquest projecte es lliura sota llicència [CC BY-NC-SA 4.0 License](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ca)  
