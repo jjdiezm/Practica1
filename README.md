@@ -52,7 +52,7 @@ Aquest codi es destina a presentar una pràctica del Master de Ciència de Dades
 
 ## Llicència
 Aquest projecte es lliura sota llicència [CC BY-NC-ND 4.0 License](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ca)  
-<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ca"><img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-nd.eu.png" width="100" alt="CC BY-NC-SA Button"></a>
+<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ca"><img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-nd.eu.png" width="150" alt="CC BY-NC-SA Button"></a>
 
 ## Reconneixements
 El [diari MARCA](http://www.marca.es) és líder a Espanya en informació esportiva en format paper i digital. Cada temporada ofereix les estadístiques més rellevants que es poden obtenir, i que sense l’esforç dels mitjans de comunicació seria quasi inviable disposar d’aquestes dades.  
