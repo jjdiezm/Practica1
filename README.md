@@ -1,4 +1,5 @@
-# Pràctica 1: Web scraping
+# FutStd 2018-2019 
+## “Dades i estadístiques dels equips de futbol de 1ª divisió”    
 Projecte de web scraping per 
 * Disposar de les estadístiques dels jugadors més rellevants de la lliga de futbol en la temporada 2018-2019.
 * Disposar de les imatges per poder aplicar algorismes ML de 'face-recognition'.
