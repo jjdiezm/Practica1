@@ -7,7 +7,39 @@ Created on Mon Apr  1 12:15:34 2019
 
 import pandas as pd
 
-# Exemple d'aplicació :  Importar els dos fitxers CSV.
+file_players = "jugadors.csv"
+file_stats = "estadistiques_jugadors.csv"
 
-jugad=pd.read_csv("jugadors.csv")
-stad=pd.read_csv("estadistiques_jugadors.csv")
+
+def print_csv(csv_file):
+    """ Function to print a CSV preview as a table using pandas
+
+    :param csv_file: csv file to import, needs to be on the same directory as this .py file
+    :return: Nothing
+    """
+    data_frame = pd.read_csv(csv_file)
+    print(data_frame)
+
+
+def print_filtered_csv(csv_file, filter_column):
+    """ Function to print a CSV as a table using pandas and filtering by a column
+
+    :param csv_file: csv file to import, needs to be on the same directory as this .py file
+    :param filter_column: column to filter the dataframe
+    :return: Nothing
+    """
+
+    data_frame = pd.read_csv(csv_file)
+    filter_df = data_frame[filter_column].unique()
+    for row in filter_df:
+        data_team = data_frame.loc[data_frame[filter_column] == row]
+        data_team = data_team.drop(columns=filter_column)
+        print("\nEquip: {}".format(row))
+        print(data_team)
+    return
+
+
+# Usage examples:
+# print_csv(file_stats)
+# print_filtered_csv(file_stats, 'nomEquip')
+print_filtered_csv(file_players, 'Equip')

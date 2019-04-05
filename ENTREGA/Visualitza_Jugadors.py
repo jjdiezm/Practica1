@@ -29,7 +29,8 @@ def team_photos(team_list):
             if team in key:
                 num += 1
                 plt.imshow(img_objects[key])
-                plt.title(key.replace("_", "\n"), fontsize=18)
+                plt.axis("off")
+                plt.title(key.replace("_", " "), fontsize=18)
                 plt.show()
         plt.show()
         print("Team {} has {} players registered.".format(str(team), str(num)))
