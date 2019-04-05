@@ -42,7 +42,7 @@ Quim de Dalmases Juanet
 Juanjo Díez Moya
 
 ## Llicència
-Aquest projecte es lliura sota llicència [CC BY-NC-SA 4.0 License](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ca)
+Aquest projecte es lliura sota llicència [CC BY-NC-SA 4.0 License](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ca)  
 ![CC BY-NC-SA Button](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png)
 
 Acknowledgments
