@@ -1,7 +1,9 @@
 # Pràctica 1: Web scraping
-Projecte de web scrapins per 
+Projecte de web scraping per 
 * Disposar de les estadístiques dels jugadors més rellevants de la lliga de futbol en la temporada 2018-2019.
 * Disposar de les imatges per poder aplicar algorismes ML de 'face-recognition'.
+
+![Logo](https://raw.githubusercontent.com/jjdiezm/Practica1/master/base_portada/informeFull1.jpg)
 
 ## Per començar
 Aquesta Pràctica es desenvolupa amb Python 3.6+
