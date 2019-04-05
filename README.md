@@ -43,7 +43,7 @@ Juanjo Díez Moya
 
 ## Llicència
 Aquest projecte es lliura sota llicència [CC BY-NC-SA 4.0 License](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ca)  
-![CC BY-NC-SA Button](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png width=100)
+![CC BY-NC-SA Button](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png | width=100)
 
 Acknowledgments
 Hat tip to anyone whose code was used
