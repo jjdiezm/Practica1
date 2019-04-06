@@ -9,6 +9,9 @@ import pandas as pd
 
 file_players = "jugadors.csv"
 file_stats = "estadistiques_jugadors.csv"
+file_pichichi = "pichichi_stats.csv"
+file_zamora = "zamora_stats.csv"
+file_munoz = "miguel-munoz_stats.csv"
 
 
 def print_csv(csv_file):
@@ -40,6 +43,8 @@ def print_filtered_csv(csv_file, filter_column):
 
 
 # Usage examples:
-# print_csv(file_stats)
+# print_csv(file_zamora)
+# print_csv(file_munoz)
 # print_filtered_csv(file_stats, 'nomEquip')
-print_filtered_csv(file_players, 'Equip')
+# print_filtered_csv(file_players, 'Equip')
+print_filtered_csv(file_pichichi, 'nomEquip')
