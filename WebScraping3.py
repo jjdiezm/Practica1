@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Mar 29 08:44:48 2019
+Created on Sat Apr 6 12:35:21 2019
 Descripció:
     Pràctica nº1 : Tipología i cicle de vida de les dades.
     Implementació pràctica de web-scraping en diari esportiu per generar
