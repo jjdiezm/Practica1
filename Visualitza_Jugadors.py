@@ -1,8 +1,12 @@
 # -*- coding: utf-8 -*-
 """
 Created on Fri Mar 29 19:26:21 2019
+Descripció:
+    Pràctica nº1 : Tipología i cicle de vida de les dades.
+    Implementació pràctica de web-scraping en diari esportiu per generar
+    un dataset d'analisi sobre el funcionament de la lliga 2018-2019.
 
-@author: Grup pràctiques:  Quim Dalmases / Juanjo Díez
+@author: Quim Dalmases / Juanjo Díez
 """
 
 import pickle
