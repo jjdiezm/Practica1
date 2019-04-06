@@ -11,6 +11,7 @@ Aquesta Pràctica es desenvolupa amb Python 3.6+
 Es requereix tenir instalades les llibreries:
 *	_Requests_: gestió de peticions al web 
 *	_BeautifulSoup_: anàlisi de documents HTML i navegació per l’arbre d’elements del document per el raspat d’informació
+* _lxml_: llibreria que permet fer servir el parser lxml a BeautifulSoup
 *	_numpy_: biblioteca de funciones matemàtiques d’alt nivell per operar amb aquests vectors i matrius
 * _pandas_: bàsicament per la gestió de ‘DataFrames’
 * _json_: gestió del format ‘JSON’ per l’obtenció de les dades
