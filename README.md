@@ -28,6 +28,7 @@ Exemples d'execució:
 ``` Shell
 python WebScraping1.py
 python WebScraping2.py
+python WebScraping3.py
 python Visualitza_Jugadors.py
 python Llegir_CSV.py
 ```
