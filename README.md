@@ -38,7 +38,9 @@ Es pot consultar la wiki a [aquest mateix repositori](https://github.com/jjdiezm
 
 ## Eines de desenvolupament
 [PyCharm Community](https://www.jetbrains.com/pycharm/download/#section=windows)  
+[Spyder](https://www.spyder-ide.org/)
 [NotePad ++](https://notepad-plus-plus.org/)
+
 
 ## Contribucions
 Aquest codi es destina a presentar una pràctica del Master de Ciència de Dades i no s'esperan contribucions de tercers.
