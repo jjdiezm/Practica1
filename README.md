@@ -57,5 +57,5 @@ Aquest projecte es lliura sota llicència [CC BY-NC-ND 4.0 License](https://crea
 [![License CC-BY-NC-ND](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-nd.eu.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ca)  
 El text complet a la data de creació d'aquest repositori s'ha transcrit [a la seguent pàgina](https://github.com/jjdiezm/Practica1/blob/master/License.md).
 
-## Reconneixements
+## Reconeixements
 El [diari MARCA](http://www.marca.es) és líder a Espanya en informació esportiva en format paper i digital. Cada temporada ofereix les estadístiques més rellevants que es poden obtenir, i que sense l’esforç dels mitjans de comunicació seria quasi inviable disposar d’aquestes dades.  
